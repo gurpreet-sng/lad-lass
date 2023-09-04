@@ -273,6 +273,54 @@ p{
 .service-image{
 	margin: 0px 10px;
 }
+.banner-section-wrapper.page-title-banner{
+	padding: 200px 0px 115px;
+	background-image: url("../images/page-title.jpg");
+}
+.margin-top-minus125{
+	margin-top: -125px;
+}
+.absolute-header .main-menu-wrapper{
+	position: absolute;
+    left: 0;
+    right: 0;
+    background: transparent;
+}
+.our-story-section{
+	background-color: #000000;
+}
+.our-story-section .video-wrapper{
+	margin-top: 0px;
+}
+.description-text-section .description-and-title-box h2{
+	font-size: 40px;
+	padding-top: 100px;
+}
+.section-title.section-title-big h2{
+	font-size: 56px;
+}
+.white-color{
+	color:#ffffff;
+}
+.padding-bottom-350{
+	padding-bottom: 350px;	
+}
+.team-section-wrapper{
+	margin-top: -250px;
+}
+.stylist-thumbnail h6{
+	font-size: 25px;
+}
+.stylist-thumbnail p{
+	color: #EED38B;
+	font-size: 18px;
+}
+.space-bottom-100{
+	padding-bottom: 100px;
+}
+.stylist-thumbnail{
+		
+}
 @media only screen and (min-width: 1920px){
 
 	.container-fluid{
