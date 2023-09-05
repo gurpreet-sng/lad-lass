@@ -318,8 +318,41 @@ p{
 .space-bottom-100{
 	padding-bottom: 100px;
 }
-.stylist-thumbnail{
-		
+.sec-bord-serv2{
+    border-bottom: 1px solid #DCDCDC;
+    padding: 20px;
+}
+.sec-sev-book-h {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 32px;
+    color: #000000;
+    margin: 0px;
+}
+.filter-sidebar .form-control{
+	width: 100%;
+	height: 60px;
+	border-radius: 5px;
+	border: 1px solid #9E9E9E;
+}
+.filter-sidebar{
+	padding-right: 20px;
+}
+.filter-sidebar label{
+	font-size: 18px;
+}
+.contact-details a{
+	text-decoration: none;
+	color: #000000;
+}
+.get-in-touch-form .form-control{
+	border-radius: 5px;
+	border: 1px solid #9E9E9E;
+	height: 60px;
+}
+.get-in-touch-form textarea.form-control{
+	height: 150px;
 }
 @media only screen and (min-width: 1920px){
 
@@ -352,6 +385,9 @@ p{
 	.button-and-search input[type="search"]{
 		display: none;
 	}
+	.margin-top-minus125 {
+		margin-top: 100px;
+	}
 }
 @media only screen and (max-width:1199px){
 
@@ -366,9 +402,29 @@ p{
 	.padding-left-right-60{
 		padding: 0px 30px;
 	}
+	.description-text-section .description-and-title-box h2{
+		padding-top: 0px;
+	}
+	.our-story-section br{
+		display: none;
+	}
+	.our-story-section p{
+		margin-bottom: 30px;
+	}
+	.padding-bottom-350 {
+		padding-bottom: 300px;
+	}
 }
 @media only screen and (max-width:991px){
 
+	.sec-cent-c.text-end {
+		text-align: left !important;
+		margin-bottom: 25px;
+		padding: 0;
+	}
+	.services-list-box{
+		margin-top: 60px;
+	}
 	.left-right-space{
 		padding: 0px 20px;
 	}
@@ -395,9 +451,22 @@ p{
 	.service-thumb h6{
 		font-size: 18px;
 	}
+	.banner-section-wrapper.page-title-banner{
+		padding: 160px 0px 100px;
+	}
+	.team-section-wrapper .space-bottom-100{
+		padding-bottom: 50px;
+	}
+	
 }
 @media only screen and (max-width:767px){
 
+	.team-section-wrapper .section-title h2{
+		color: #000000;
+	}
+	.team-section-wrapper {
+		margin-top: 100px;
+	}
 	.button-and-search{
 		display: none;
 	}
@@ -430,9 +499,34 @@ p{
 		padding-top: 0px;
 		padding-bottom: 30px;
 	}
+	.margin-top-minus125 {
+		margin-top: 60px;
+	}
+	.top-bottom-space-100{
+		padding: 60px 0px;
+	}
+	.description-text-section .description-and-title-box h2{
+		padding-top: 0px;
+	}
+	.team-section-wrapper{
+		margin-top: 60px;
+	}
 }
 @media only screen and (max-width:575px){
 
+	
+	.team-section-wrapper .col-6{
+		width: 100% !important;
+	}
+	.stylist-thumbnail{
+		text-align: center;
+	}
+	.stylist-image{
+		margin-bottom: 20px;
+	}
+	.banner-section-wrapper.page-title-banner{
+		padding: 120px 0px 60px;
+	}
 	.navbar-brand{
 		width: 150px;
 	}
@@ -478,5 +572,11 @@ p{
 	}
 	.footer-wrapper p{
 		font-size: 16px;
+	}
+	.sec-cent-c.text-end{
+		margin-bottom: 0px;
+	}
+	.services-list-box{
+		margin-bottom: 0px !important;
 	}
 }
