@@ -22,39 +22,8 @@
       <div class="main-menu-wrapper">
          <div class="container-fluid">
             <div class="left-right-space">
-               <nav class="navbar navbar-expand-md navbar-dark">
-                  <div class="container-fluid">
-                     <a class="navbar-brand" href="#"><img src="images/logo.png" class="img-fluid"></a>
-                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                     </button>
-                     <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <ul class="navbar-nav mx-auto mb-2 mb-md-0">
-                           <li class="nav-item">
-                              <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="about.html">About</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="treatments.html">Treatment</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="gallery.html">Gallery</a>
-                           </li>
-                           <li class="nav-item">
-                              <a class="nav-link" href="#">Contact</a>
-                           </li>
-                        </ul>
-                     </div>
-                     <div class="button-and-search">
-                        <input type="search" placeholder="Search here..">
-                        <a href="#" class="btn button-style" role="button" data-bs-toggle="button">Book Appointment</a>
-                     </div>
-                  </div>
-               </nav>
+               <!-- header -->
+               <div include-html="header.html" id="header-file"></div>
             </div>
          </div>
       </div>
@@ -275,8 +244,6 @@
                            </div>
                         </div>
                      </div>
-
-
                   </div>
                </div>
                <div class="col-md-6">
@@ -287,72 +254,9 @@
       </div>
    </div>
    <footer>
-      <div class="footer-wrapper">
-         <div class="container-fluid">
-            <div class="left-right-space">
-               <div class="row">
-                  <div class="col-lg-4 col-md-12">
-                     <div class="footer-intro">
-                        <a href="#"><img src="images/logo.png"></a>
-                        <p class="my-4">There Are Many Variations Passages Of Lorem Ipsum Available, But The Majority
-                           Have Suffered Alteration In Some Form, By Injected Or Randomised</p>
-                        <div class="social-icons">
-                           <ul>
-                              <li><a href="#" target="_blank"><i class="bi bi-facebook"></i></a></li>
-                              <li><a href="#" target="_blank"><i class="bi bi-instagram"></i></a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-lg-4 col-md-6 footer-info ps-5">
-                     <h6 class="mb-4">CONTACT</h6>
-                     <ul>
-                        <li class="d-flex">
-                           <i><img src="images/add.png"></i>
-                           <p> <a href="https://goo.gl/maps/vD8VKvy7zxcbUbyx8" target="_blank">30/23, Vijayaraghavalu
-                                 Road,
-                                 Old Washermenpet,
-                                 Chennai - 600 021</a></p>
-                        </li>
-                        <li class="d-flex">
-                           <i><img src="images/ph.png"></i>
-                           <p><a href="tel:+91 98457 44332" target="_blank">+91 98457 44332</a> ,
-                              <a href="tel:044- 47 712 5255" target="_blank">044- 47 712 5255</a>
-                           </p>
-                        </li>
-                        <li class="d-flex">
-                           <i><img src="images/em.png"></i>
-                           <p><a href="mailto:ladandlasssalon@gmail.com" target="_blank">ladandlasssalon@gmail.com</a>
-                           </p>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="col-lg-4 col-md-6 footer-info ps-5 quick-links">
-                     <h6 class="mb-4">QUICK LINKS</h6>
-                     <ul>
-                        <li class="d-flex">
-                           <p> <a href="#">About us</a></p>
-                        </li>
-                        <li class="d-flex">
-                           <p><a href="#">Our Offers</a></p>
-                        </li>
-                        <li class="d-flex">
-                           <p><a href="#">Services</a>
-                           </p>
-                        </li>
-                        <li class="d-flex">
-                           <p><a href="#">Blog</a>
-                           </p>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="row">
-                  <p class="text-center copyright-text">Copyright © 2023 Easy Software. All Rights Reserved.</p>
-               </div>
-            </div>
-         </div>
-      </div>
+      <!-- footer -->
+      <div include-html="footer.html" id="footer-file"></div>
+
       <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
          integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
          async></script>
@@ -361,6 +265,7 @@
          crossorigin="anonymous"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
       <script src="js/owl.carousel.min.js" type="text/javascript"></script>
+      <script src="js/include-html.min.js"></script>
       <script>
          $(document).ready(function () {
             $('.owl-one').owlCarousel({
@@ -378,7 +283,7 @@
             $('.stop').on('click', function () {
                owl.trigger('stop.owl.autoplay')
             })
-
+  
          });
       </script>
    </footer>
